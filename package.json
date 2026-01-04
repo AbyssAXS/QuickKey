@@ -1,0 +1,41 @@
+{
+  "name": "quickkey",
+  "version": "1.0.0",
+  "description": "A modular CLI tool for generating secure passwords and API keys",
+  "main": "index.js",
+  "bin": {
+    "quickkey": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "password",
+    "generator",
+    "api-key",
+    "security",
+    "random",
+    "password-generator"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "figlet": "^1.6.0",
+    "inquirer": "^8.2.5",
+    "clipboardy": "^2.3.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/quickkey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/quickkey/issues"
+  },
+  "homepage": "https://github.com/yourusername/quickkey#readme"
+}
