@@ -37,8 +37,5 @@
   "bugs": {
     "url": "https://github.com/abysaxs/quickkey/issues"
   },
-  "publishConfig": {
-  "@AbyssAXS:registry": "https://npm.pkg.github.com"
-  },
   "homepage": "https://github.com/abyssaxs/quickkey#readme"
 }
