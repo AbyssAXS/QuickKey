@@ -1,6 +1,6 @@
 {
   "name": "quickkey",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modular CLI tool for generating secure passwords and API keys",
   "main": "index.js",
   "bin": {
