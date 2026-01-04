@@ -2,14 +2,6 @@
   "name": "quickkey",
   "version": "1.0.1",
   "description": "A modular CLI tool for generating secure passwords and API keys",
-  "main": "index.js",
-  "bin": {
-    "quickkey": "./index.js"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "cli",
     "password",
@@ -19,8 +11,25 @@
     "random",
     "password-generator"
   ],
-  "author": "",
+  "homepage": "https://github.com/abyssaxs/quickkey#readme",
+  "bugs": {
+    "url": "https://github.com/abysaxs/quickkey/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abyssaxs/quickkey.git"
+  },
   "license": "MIT",
+  "author": "Remco Stroop",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "quickkey": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "chalk": "^4.1.2",
     "figlet": "^1.6.0",
@@ -29,13 +38,5 @@
   },
   "engines": {
     "node": ">=12.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/abyssaxs/quickkey.git"
-  },
-  "bugs": {
-    "url": "https://github.com/abysaxs/quickkey/issues"
-  },
-  "homepage": "https://github.com/abyssaxs/quickkey#readme"
+  }
 }
